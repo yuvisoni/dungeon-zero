@@ -1,0 +1,21 @@
+# Nim build artifacts and binaries
+build/
+nimcache/
+*.exe
+*.o
+*.obj
+*.pdb
+*.lib
+*.a
+
+# Nimble cache
+.nimble/
+nimblecache/
+
+# Local toolchain
+toolchain/
+
+# Scratch & temporary artifacts
+scratch/
+*.tmp
+*.log

@@ -1,0 +1,5 @@
+agent_name,model,task_id,status,score,baseline_pass,task_pass_rate,compile_time_ms,sim_time_ms,total_tokens,agent_turns
+Antigravity,gemini-2.5-pro,task_01,PASSED,96.5,TRUE,100%,1280,14.2,17350,4
+Claude-Coder,claude-3-7-sonnet,task_01,PASSED,95.0,TRUE,100%,1410,15.1,19200,5
+GPT-Engineer,gpt-4o,task_01,PASSED,91.0,TRUE,100%,1650,16.0,22400,6
+DeepSeek-Coder,deepseek-r1,task_01,PASSED,93.5,TRUE,100%,1520,15.5,18900,5

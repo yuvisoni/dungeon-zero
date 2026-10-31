@@ -1,0 +1,39 @@
+{
+  "benchmark_metadata": {
+    "harness_version": "1.0.0",
+    "compiler": "Nim 2.4.0",
+    "c_compiler": "MinGW-w64 GCC 11.1.0",
+    "os": "Windows 11 x64",
+    "timestamp_iso": "2026-10-31T12:00:00Z"
+  },
+  "agent_evaluation": {
+    "agent_name": "Antigravity-v1",
+    "base_model": "gemini-2.5-pro",
+    "task_id": "task_01",
+    "status": "PASSED",
+    "total_score": 96.5,
+    "metrics": {
+      "baseline_regression_free": true,
+      "task_tests_passed": 5,
+      "task_tests_total": 5,
+      "total_codebase_tests_passed": 98,
+      "total_codebase_tests_total": 98,
+      "compilation_time_ms": 1280,
+      "simulation_runtime_500_turns_ms": 14.2,
+      "token_usage": {
+        "prompt_tokens": 14200,
+        "completion_tokens": 3150,
+        "total_tokens": 17350
+      },
+      "agent_turns": 4,
+      "self_repair_attempts": 0
+    },
+    "simulation_results": {
+      "seed": 1337,
+      "executed_turns": 500,
+      "final_status": "Playing",
+      "floors_completed": 2,
+      "final_score": 3840
+    }
+  }
+}

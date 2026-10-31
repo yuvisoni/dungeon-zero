@@ -1,0 +1,3 @@
+--nimcache: "build/nimcache"
+--mm: "orc"
+--threads: "on"
